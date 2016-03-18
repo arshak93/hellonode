@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /home/node/hello-node/hellonode
-git pull
-npm install --production
-forever restartall
+sudo cd /home/node/hello-node/hellonode
+sudo git pull
+sudo npm install --production
+sudo forever restartall
