@@ -1,7 +1,6 @@
 #!/bin/sh
 
-cd ~/hello-jenkins
+cd ~/hello-node/hellonode
 git pull
 npm install --production
 forever restartall
-exit
