@@ -2,6 +2,6 @@
 
 cd /home/node/hello-node/hellonode
 sudo pwd
-git pull
+sudo git pull
 npm install --production
 sudo forever restartall
