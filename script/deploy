@@ -1,6 +1,7 @@
 #!/bin/sh
 
 sudo cd /home/node/hello-node/hellonode
-sudo git pull
-sudo npm install --production
+sudo pwd
+git pull
+npm install --production
 sudo forever restartall
